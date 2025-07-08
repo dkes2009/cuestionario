@@ -16,7 +16,7 @@ public class controlador {
         this.questionsRepository = questionsRepository;
     }
 
-    @CrossOrigin(origins = "http://192.168.1.7:5500")
+    @CrossOrigin(origins = "https://questionscompany.webcindario.com")
     @PostMapping("/guardarEncuesta")
     public RequiQuestions guardar(@RequestBody RequiQuestions questions) {
 

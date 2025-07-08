@@ -3,4 +3,4 @@ FROM eclipse-temurin:21-jdk
 
 COPY target/cuestionario-3.4.7.jar.jar app.jar
 
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-jar", "/app.jar"]

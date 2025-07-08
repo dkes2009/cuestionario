@@ -1,0 +1,4 @@
+com\crud\cuestionario\CuestionarioApplication.class
+com\crud\cuestionario\repository\QuestionsRepository.class
+com\crud\cuestionario\controller\controlador.class
+com\crud\cuestionario\entity\RequiQuestions.class

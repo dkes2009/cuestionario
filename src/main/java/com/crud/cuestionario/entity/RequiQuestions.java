@@ -4,7 +4,7 @@ package com.crud.cuestionario.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "RequiQuestions")
+@Table(name = "requi_questions")
 public class RequiQuestions {
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
